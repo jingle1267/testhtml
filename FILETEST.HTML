@@ -1,0 +1,26 @@
+<HTML>
+
+<HEAD></HEAD>
+
+<BODY>
+
+<img id="testImage" src=""  alt="上海鲜花港 - 郁金香" />
+
+<script>
+		function useCamera(){
+           window.camera.onUseCamera();
+        }
+        function getPic(){
+            var filePath = "http://www.w3school.com.cn/i/eg_tulip.jpg";
+            filePath = "/storage/emulated/0/Pictures/锁屏壁纸/c04-04_1511202943401.jpg";
+            alert(filePath);
+            document.getElementById("testImage").src=filePath;
+        }
+        // useCamera();
+        getPic();
+</script>
+
+</BODY>
+
+</HTML>
+
